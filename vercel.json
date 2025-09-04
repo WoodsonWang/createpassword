@@ -11,10 +11,13 @@
             "src": "/",
             "dest": "/createpassword.html"
         },
-        { 
-            "src": "/(.*)", 
-            "dest": "/$1" 
+        {
+            "src": "/sitemap.xml",
+            "dest": "/sitemap.xml",
+            "headers": {
+                "Content-Type": "text/xml"
         }
+    }
         
     ]
    
