@@ -10,14 +10,13 @@
         {
             "src": "/",
             "dest": "/createpassword.html"
+        },
+        { 
+            "src": "/(.*)", 
+            "dest": "/$1" 
         }
         
-    ],
-   "rewrites": [
-    { 
-        "source": "/(.*)", 
-        "destination": "/" 
-    }
-   ]
+    ]
+   
   
 }
