@@ -4,6 +4,10 @@
         {
             "src": "createpassword.html",
             "use": "@vercel/static"
+        },
+        {
+            "src": "sitemap.xml",
+            "use": "@vercel/static"
         }
     ],
     "routes": [
